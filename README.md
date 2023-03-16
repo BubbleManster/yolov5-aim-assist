@@ -16,7 +16,7 @@ Keep in mind this is more of an assistant than a bot. You still would carry on p
 Type these three docker commands:
   <ul>
     <li>cd: cd into the project directory</li>
-    <li>sudo dockerd</li>
+    <li><code>sudo dockerd</code></li>
     <li>In a new wsl tab, run <code>sudo docker run --net=host roboflow/inference-server:cpu</code></li>
   </ul>
   <li>Now, in the code editor of your choice, <strong>whilst still keeping the terminal window open in the background,</strong> run the <code>main.py</code> script</li>
