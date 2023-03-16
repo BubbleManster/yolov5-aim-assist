@@ -1,7 +1,0 @@
-mss
-numpy
-opencv-python
-pyautogui
-keyboard
-torch
-tk
