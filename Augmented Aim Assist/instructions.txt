@@ -1,0 +1,7 @@
+1. Open powershell
+2. Type wsl and hit enter
+3. Type these three docker commands:
+    - cd: cd into the project directory
+    - sudo dockerd
+    - In a new wsl tab, run sudo docker run --net=host roboflow/inference-server:cpu
+4. Run the roboflow_main.py script and everything should work
