@@ -3,6 +3,7 @@ An augmented aim assist made for Krunker.IO with the YOLOv5 Object Detection Mod
 
 <h1>Installation</h1>
 <ul>
+  <li>Create a Roboflow account and train and host a dataset on there</li>
   <li>Install Docker</li>
   <li>Install Windows Subsystem For Linux</li>
   <li>Git clone or download the zip on this project</li>
