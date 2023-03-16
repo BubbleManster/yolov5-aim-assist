@@ -17,9 +17,9 @@ Type these three docker commands:
   <ul>
     <li>cd: cd into the project directory</li>
     <li>sudo dockerd</li>
-    <li>In a new wsl tab, run sudo docker run --net=host roboflow/inference-server:cpu</li>
+    <li>In a new wsl tab, run <code>sudo docker run --net=host roboflow/inference-server:cpu</code></li>
   </ul>
-  <li>Now, in the code editor of your choice, <strong>whilst still keeping the terminal window open in the background,</strong> run the main.py script</li>
+  <li>Now, in the code editor of your choice, <strong>whilst still keeping the terminal window open in the background,</strong> run the <code>main.py</code> script</li>
   <li>You should see an output in the terminal saying 'Not Detected'</li>
   <li>Now open Krunker whilst still keeping the script running in the background</li>
   <li>The script automatically locks onto enemies and (tries to) shoot(s) them</li>
