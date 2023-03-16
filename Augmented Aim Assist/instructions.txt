@@ -4,4 +4,4 @@
     - cd: cd into the project directory
     - sudo dockerd
     - In a new wsl tab, run sudo docker run --net=host roboflow/inference-server:cpu
-4. Run the roboflow_main.py script and everything should work
+4. Run the main.py script and everything should work
