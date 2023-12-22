@@ -1,1 +1,3 @@
-ROBOFLOW_API_KEY='uxRkddR0MJGvvoR0H8QI'
+config.py
+__pycache__
+.ipynb_checkpoints
