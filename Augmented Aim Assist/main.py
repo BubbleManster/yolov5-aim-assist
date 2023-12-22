@@ -4,8 +4,9 @@ import mss
 import numpy as np
 import pyautogui
 import time
+from config import ROBOFLOW_API_KEY
 
-rf = Roboflow(api_key="uxRkddR0MJGvvoR0H8QI")
+rf = Roboflow(api_key=ROBOFLOW_API_KEY)
 project = rf.workspace("dylan-lewis-cfzob").project("krunker1")
 model = project.version(3, local="http://localhost:9001/").model
 
